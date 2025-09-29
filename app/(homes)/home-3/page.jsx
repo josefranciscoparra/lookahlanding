@@ -23,10 +23,10 @@ export default function HomePage3() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <Brands2 />
+          {/* <Brands2 /> */}
           <Features />
           <Pricing />
-          <Testimonials />
+          {/* <Testimonials />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
@@ -48,7 +48,7 @@ export default function HomePage3() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <Cta />
         </div>
         <Footer2 />

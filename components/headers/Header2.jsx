@@ -56,18 +56,10 @@ export default function Header2() {
                     style={{ width: 140 }}
                   >
                     <Image
-                      className="dark:d-none"
                       alt="Lookah"
-                      src="/assets/images/common/logo-light.svg"
-                      width="117"
-                      height="40"
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt="Lookah"
-                      src="/assets/images/common/logo-dark.svg"
-                      width="117"
-                      height="40"
+                      src="/assets/images/review-logo/logoolookah.png"
+                      width="140"
+                      height="50"
                     />
                   </Link>
                 </div>

@@ -10,21 +10,18 @@ export default function Nav() {
   return (
     <>
       <li>
-        <Link href={`/page-features`}>Funcionalidades</Link>
+        <a href={`#hero_header`}>Inicio</a>
       </li>
       <li>
-        <Link href={`/page-pricing`}>Precios</Link>
+        <a href={`#main_features`}>Cómo funciona</a>
       </li>
       <li>
-        <Link href={`/blog`}>Blog</Link>
-      </li>
-      <li>
-        <Link href={`/page-about`}>Acerca de</Link>
+        <a href={`#pricing_tiers`}>Precios</a>
       </li>
       <li>
         <Link href={`/page-contact`}>Contacto</Link>
       </li>
-      <li className="has-dd-menu">
+      {/* <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">
           Más{" "}
           <span
@@ -41,8 +38,6 @@ export default function Nav() {
             </svg>
           </span>
         </a>
-        {/* uc-navbar-dropdown uc-drop uc-open */}
-
         <div className={`uc-navbar-dropdown uc-drop w-100`}>
           <div
             className="uc-drop-grid row child-cols g-4 uc-grid uc-grid-stack"
@@ -113,7 +108,7 @@ export default function Nav() {
             </div>
           </div>
         </div>
-      </li>
+      </li> */}
     </>
   );
 }

@@ -34,10 +34,10 @@ export default function Features() {
                               <span className="fs-6 fw-bold m-0" style={{color: '#F57197'}}>
                                 {feature.step}
                               </span>
-                              <h3 className="h4 lg:h3 xl:h2 m-0" style={{color: '#1F2A44'}}>
+                              <h3 className="h5 lg:h4 m-0" style={{color: '#1F2A44'}}>
                                 {feature.title}
                               </h3>
-                              <p className="fs-6 xl:fs-5" style={{color: '#6B7280'}}>
+                              <p className="fs-6" style={{color: '#6B7280'}}>
                                 {feature.description}
                               </p>
                               {feature.link && (

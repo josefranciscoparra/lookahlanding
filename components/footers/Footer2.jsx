@@ -17,40 +17,15 @@ export default function Footer2() {
                     <div className="vstack gap-2">
                       <Link href={`/`}>
                         <Image
-                          className="w-32px text-primary"
-                          alt="Lexend"
-                          src="/assets/images/common/logo-mark.svg"
-                          width="34"
-                          height="34"
+                          alt="Lookah"
+                          src="/assets/images/review-logo/logoolookah.png"
+                          width="120"
+                          height="45"
                         />
                       </Link>
-                      <p>
-                        This powerfull tool eliminates the need to leave
-                        Salesforce to get things done as I can create a custom
-                        proposal with dynamic pricing tables.
+                      <p style={{color: '#6B7280'}}>
+                        Transforma tu estilo con inteligencia artificial. Crea outfits realistas y modernos en segundos con nuestro probador virtual impulsado por IA.
                       </p>
-                    </div>
-                    <div className="hstack items-start gap-1">
-                      <a href="#">
-                        <Image
-                          className="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
-                          alt="Google Play Store"
-                          data-uc-svg=""
-                          src="/assets/images/common/playstore.svg"
-                          width="135"
-                          height="40"
-                        />
-                      </a>
-                      <a href="#">
-                        <Image
-                          className="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
-                          alt="Apple Store"
-                          data-uc-svg=""
-                          src="/assets/images/common/appstore.svg"
-                          width="134"
-                          height="40"
-                        />
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -70,17 +45,17 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © 2024, All rights reserved.
+                  Lookah © 2025, Todos los derechos reservados.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <a href="#">Privacy notice</a>
+                    <a href="#">Aviso de privacidad</a>
                   </li>
                   <li>
-                    <a href="#">Legal</a>
+                    <a href="#">Términos legales</a>
                   </li>
                   <li>
-                    <a href="#">Cookie settings</a>
+                    <a href="#">Configuración de cookies</a>
                   </li>
                 </ul>
               </div>
@@ -89,13 +64,11 @@ export default function Footer2() {
                   {socialLinks.map((link, index) => (
                     <li key={index}>
                       <a href={link.href}>
-                        <i className={`icon icon-2 ${link.iconClass}`} />
+                        <i className={`icon icon-2 ${link.iconClass}`} style={{color: '#F57197'}} />
                       </a>
                     </li>
                   ))}
                 </ul>
-                <div className="vr" />
-                <LanguageSelect />
               </div>
             </div>
           </div>
