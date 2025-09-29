@@ -31,13 +31,13 @@ export default function Features() {
                         <div className="panel vstack justify-between gap-4 sm:gap-6 h-100">
                           <div>
                             <div className="panel vstack gap-2">
-                              <span className="fs-6 fw-bold m-0 text-primary">
+                              <span className="fs-6 fw-bold m-0" style={{color: '#F57197'}}>
                                 {feature.step}
                               </span>
-                              <h3 className="h4 lg:h3 xl:h2 m-0">
+                              <h3 className="h4 lg:h3 xl:h2 m-0" style={{color: '#1F2A44'}}>
                                 {feature.title}
                               </h3>
-                              <p className="fs-6 xl:fs-5 opacity-70 dark:opacity-80">
+                              <p className="fs-6 xl:fs-5" style={{color: '#6B7280'}}>
                                 {feature.description}
                               </p>
                               {feature.link && (
@@ -52,8 +52,8 @@ export default function Features() {
                             </div>
                           </div>
                           <div>
-                            <div className="p-3 panel vstack gap-3 rounded border">
-                              <p className="fs-6 dark:text-white">
+                            <div className="p-3 panel vstack gap-3 rounded border" style={{borderColor: '#F9FAFB', backgroundColor: '#F9FAFB'}}>
+                              <p className="fs-6" style={{color: '#111827'}}>
                                 {feature.testimonial.quote}
                               </p>
                               <div className="panel hstack gap-1">
@@ -65,10 +65,10 @@ export default function Features() {
                                   alt={feature.testimonial.name}
                                 />
                                 <div className="panel vstack items-start gap-0">
-                                  <h6 className="h6 m-0">
+                                  <h6 className="h6 m-0" style={{color: '#111827'}}>
                                     {feature.testimonial.name}
                                   </h6>
-                                  <span className="fs-7 opacity-70">
+                                  <span className="fs-7" style={{color: '#6B7280'}}>
                                     {feature.testimonial.role}
                                   </span>
                                 </div>

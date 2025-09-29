@@ -13,18 +13,18 @@ export default function Blog() {
               className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h3 lg:h2 xl:h1 max-w-400px lg:max-w-750px m-auto text-center">
-                Gain valuable insights
+              <h2 className="h3 lg:h2 xl:h1 max-w-400px lg:max-w-750px m-auto text-center" style={{color: '#1F2A44'}}>
+                Obtén información valiosa
               </h2>
               <div className="panel">
                 <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 justify-center g-2 xl:g-4">
                   {blogPosts.map((post, index) => (
                     <div key={index}>
-                      <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
+                      <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3" style={{backgroundColor: '#F9FAFB'}}>
                         <Link
-                          className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1"
+                          className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 text-white py-narrow px-1"
                           href={`/blog`}
-                          style={{ borderRadius: 8 }}
+                          style={{ borderRadius: 8, backgroundColor: '#F57197' }}
                         >
                           {post.category}
                         </Link>
@@ -47,11 +47,12 @@ export default function Blog() {
                             <Link
                               className="text-none"
                               href={`/blog-details/${post.id}`}
+                              style={{color: '#1F2A44'}}
                             >
                               {post.title}
                             </Link>
                           </h3>
-                          <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                          <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 d-none lg:d-flex" style={{color: '#6B7280'}}>
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 <Image
@@ -63,7 +64,8 @@ export default function Blog() {
                                 />
                                 <Link
                                   href={`/blog-author/Amir Khan`}
-                                  className="text-none fw-bold text-dark dark:text-white"
+                                  className="text-none fw-bold"
+                                  style={{color: '#111827'}}
                                 >
                                   {post.authorName}
                                 </Link>

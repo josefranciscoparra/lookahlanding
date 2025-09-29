@@ -6,18 +6,20 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
+      className="key-features section panel overflow-hidden"
+      style={{backgroundColor: '#1F2A44'}}
     >
-      <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
+      <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <h2
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
+                style={{color: 'white'}}
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Review quickly and confidently using
-                <span className="text-primary"> Lexend.</span>
+                Descubre las funcionalidades de
+                <span style={{color: '#F57197'}}> Lookah</span>
               </h2>
               <div className="panel">
                 <div
@@ -26,7 +28,7 @@ export default function KeyFeatures() {
                 >
                   {features4.map((feature, index) => (
                     <div key={index}>
-                      <div className="feature-item panel p-4 border rounded-2 hover:bg-white dark:hover:bg-secondary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all">
+                      <div className="feature-item panel p-4 border rounded-2 hover:bg-white hover:scale-105 duration-150 transition-all" style={{borderColor: 'rgba(255, 255, 255, 0.1)', color: 'white'}}>
                         <div className="vstack panel min-h-250px">
                           <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" />
                           <div className="vstack justify-between gap-2 h-100">

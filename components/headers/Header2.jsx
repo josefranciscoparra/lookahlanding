@@ -4,8 +4,6 @@ import Link from "next/link";
 import Nav from "./component/Nav";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { openContactModal } from "@/utlis/toggleContactModal";
-import LanguageSelect2 from "../common/LanguageSelect2";
 // uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky uc-sticky-below uc-sticky-fixed
 // --uc-nav-height: 80px; position: fixed !important; width: 1205px !important; margin-top: 0px !important; top: 0px;
 export default function Header2() {
@@ -59,47 +57,34 @@ export default function Header2() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
+                      alt="Lookah"
                       src="/assets/images/common/logo-light.svg"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
+                      alt="Lookah"
                       src="/assets/images/common/logo-dark.svg"
                       width="117"
                       height="40"
                     />
                   </Link>
                 </div>
-                <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
+              </div>
+              <div className="uc-navbar-center">
+                <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium">
                   <Nav />
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                <div className="d-none xl:d-block">
-                  <a
-                    className="text-none fw-medium"
-                    onClick={openContactModal}
-                    data-uc-toggle=""
-                    role="button"
-                  >
-                    <span>Request a demo</span>
-                  </a>
-                </div>
-                <div className="d-none lg:d-block">
-                  <Link className="text-none fw-medium" href={`/sign-in`}>
-                    <span>Log in</span>
-                  </Link>
-                </div>
                 <Link
-                  className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
+                  className="btn btn-sm text-white text-none d-none lg:d-inline-flex"
                   href={`/page-pricing`}
+                  style={{backgroundColor: '#F57197'}}
                 >
-                  Start free trial
+                  Ver precios
                 </Link>
-                <LanguageSelect2 />
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                   onClick={openMobileMenu}
