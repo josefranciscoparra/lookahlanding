@@ -6,22 +6,27 @@ import Image from "next/image";
 export default function Features() {
   return (
     <div id="main_features" className="main-features section panel">
-      <style jsx>{`
-        .feature-bg-alt {
-          background-color: #FFF5F8;
-        }
-        @media (prefers-color-scheme: dark) {
-          :global(.dark) .feature-bg-alt {
-            background-color: rgb(31 41 55);
-          }
-        }
-      `}</style>
       <div className="panel vstack">
         {features3.map((feature, i) => (
           <React.Fragment key={i}>
             <div
-              className={`w-100 ${(i === 0 || i === 2) ? 'feature-bg-alt' : ''}`}
+              className="w-100"
+              style={{
+                backgroundColor: (i === 0 || i === 2) ? '#FFF5F8' : 'transparent'
+              }}
             >
+              <div
+                className={(i === 0 || i === 2) ? 'dark:bg-gray-700' : ''}
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  pointerEvents: 'none'
+                }}
+              />
+              <div style={{position: 'relative'}}>
               <div className="section-outer panel py-4 sm:py-5">
                 <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
                   <div className="section-inner panel">
@@ -61,6 +66,7 @@ export default function Features() {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </React.Fragment>
