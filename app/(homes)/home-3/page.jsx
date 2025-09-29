@@ -25,7 +25,6 @@ export default function HomePage3() {
           <Hero />
           <Brands2 />
           <Features />
-          <KeyFeatures />
           <Pricing />
           <Testimonials />
           <div
@@ -50,7 +49,6 @@ export default function HomePage3() {
               </div>
             </div>
           </div>
-          <Blog />
           <Cta />
         </div>
         <Footer2 />

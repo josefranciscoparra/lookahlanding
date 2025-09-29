@@ -1,14 +1,34 @@
+"use client";
 import { features4 } from "@/data/features";
 import React from "react";
 import Link from "next/link";
 
 export default function KeyFeatures() {
   return (
-    <div
-      id="key_features"
-      className="key-features section panel overflow-hidden"
-      style={{backgroundColor: '#1F2A44'}}
-    >
+    <>
+      <style jsx>{`
+        .feature-item-lookah {
+          transition: all 150ms;
+        }
+        .feature-item-lookah:hover {
+          background-color: white !important;
+          color: #1F2A44 !important;
+        }
+        .feature-item-lookah:hover i {
+          color: #1F2A44 !important;
+        }
+        .feature-item-lookah:hover .title {
+          color: #1F2A44 !important;
+        }
+        .feature-item-lookah:hover .desc {
+          color: #6B7280 !important;
+        }
+      `}</style>
+      <div
+        id="key_features"
+        className="key-features section panel overflow-hidden"
+        style={{backgroundColor: '#1F2A44'}}
+      >
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg">
           <div className="section-inner panel">
@@ -28,17 +48,17 @@ export default function KeyFeatures() {
                 >
                   {features4.map((feature, index) => (
                     <div key={index}>
-                      <div className="feature-item panel p-4 border rounded-2 hover:bg-white hover:scale-105 duration-150 transition-all" style={{borderColor: 'rgba(255, 255, 255, 0.1)', color: 'white'}}>
+                      <div className="feature-item-lookah panel p-4 border rounded-2 hover:scale-105" style={{borderColor: 'rgba(255, 255, 255, 0.1)', color: 'white'}}>
                         <div className="vstack panel min-h-250px">
                           <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" />
                           <div className="vstack justify-between gap-2 h-100">
                             <i className={`icon icon-4 ${feature.icon}`} />
                             <div className="panel">
                               <div className="vstack gap-1">
-                                <h3 className="title h5 m-0 text-inherit">
+                                <h3 className="title h5 m-0">
                                   {feature.title}
                                 </h3>
-                                <p className="desc fs-6 opacity-70">
+                                <p className="desc fs-6">
                                   {feature.description}
                                 </p>
                               </div>
@@ -59,5 +79,6 @@ export default function KeyFeatures() {
         </div>
       </div>
     </div>
+    </>
   );
 }
