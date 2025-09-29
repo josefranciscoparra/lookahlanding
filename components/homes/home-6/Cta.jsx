@@ -12,16 +12,16 @@ export default function Cta() {
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h2 xl:display-5 text-black">
-                Unleash your creativity with Lexend.
+                Transforma tu catálogo de moda con IA.
               </h2>
               <p className="fs-5">
-                Start your 14-days free trial. Cancel anytime.
+                Empieza gratis con 5 imágenes. Sin tarjeta de crédito.
               </p>
               <a
-                href="https://themeforest.net/user/elite-themes24"
+                href="#pricing"
                 className="btn btn-md btn-primary min-w-150px px-3 mt-4"
               >
-                <span>Get started</span>
+                <span>Probar Gratis</span>
                 <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
               </a>
             </div>

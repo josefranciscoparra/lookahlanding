@@ -25,17 +25,17 @@ export default function Pricing() {
               >
                 <div className="cstack gap-1 py-1 px-2 border rounded-pill">
                   <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
-                  <span className="fs-8 fw-bold text-uppercase">Pricing</span>
+                  <span className="fs-8 fw-bold text-uppercase">Planes</span>
                 </div>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
-                  Simple{" "}
+                  Precios{" "}
                   <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                    scalable
+                    transparentes
                   </span>{" "}
-                  pricing.
+                  y flexibles.
                 </h2>
                 <p className="fs-6 xl:fs-5 text-opacity-70">
-                  No extra charges. No hidden fees.
+                  Sin costos ocultos. Cancela cuando quieras.
                 </p>
               </div>
               <div className="content panel">
@@ -62,7 +62,7 @@ export default function Pricing() {
                               {tier.price}
                             </h3>
                             <span className="h6 lg:h3 m-0 pb-narrow text-dark">
-                              / mo
+                              / mes
                             </span>
                           </div>
                           <p
@@ -75,7 +75,7 @@ export default function Pricing() {
                             className={`btn btn-md lg:btn-lg ${tier.buttonClass} w-100 mt-2`}
                             href={`/sign-up`}
                           >
-                            <span>Get started</span>
+                            <span>Comenzar</span>
                           </Link>
                           <p className="details">{tier.details}</p>
                         </header>

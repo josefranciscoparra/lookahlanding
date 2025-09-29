@@ -15,9 +15,9 @@ import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import React from "react";
 export const metadata = {
   title:
-    "Home 6 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "FashionAI - Genera imágenes profesionales de moda con IA | Viste modelos instantáneamente",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Transforma tus fotos de modelos y prendas en imágenes de catálogo profesional con IA. Resultados instantáneos, alta resolución. Prueba gratis.",
 };
 export default function HomePage6() {
   return (
@@ -37,8 +37,6 @@ export default function HomePage6() {
           <Pricing />
           <Testimonials />
           <Faq />
-          <Team />
-          <Blogs />
           <Cta />
         </div>
         <Footer5 />

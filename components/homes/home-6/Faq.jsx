@@ -21,19 +21,18 @@ export default function Faq() {
                 <div className="panel vstack items-start gap-2 uc-sticky">
                   <div className="cstack gap-1 py-1 px-3 border rounded-pill">
                     <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
-                    <span className="fs-8 fw-bold text-uppercase">FAQs</span>
+                    <span className="fs-8 fw-bold text-uppercase">Preguntas Frecuentes</span>
                   </div>
-                  <h2 className="h3 lg:h2 m-0">Frequenlty Asked Questions</h2>
+                  <h2 className="h3 lg:h2 m-0">Resolvemos tus dudas</h2>
                   <p className="fs-6 lg:fs-5">
-                    We’re looking for people who share our vision! most of our
-                    time used to be taken up by most of who created new websites
-                    for thier businesses.
+                    Entiende cómo funciona: sube tu modelo, sube tu prenda, y con un clic
+                    obtienes imágenes profesionales para tu catálogo de moda.
                   </p>
                   <Link
-                    href={`/page-contact`}
+                    href={`#pricing`}
                     className="btn btn-sm lg:btn-md btn-primary px-3 mt-2"
                   >
-                    <span>Still have a question?</span>
+                    <span>¿Más preguntas?</span>
                     <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                   </Link>
                 </div>
