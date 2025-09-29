@@ -6,7 +6,7 @@ import { openContactModal } from "@/utlis/toggleContactModal";
 export default function Hero() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen bg-white z-0" />
+      <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen bg-white dark:bg-gray-900 z-0" />
       <div
         className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
         data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
@@ -159,11 +159,11 @@ export default function Hero() {
               className="vstack items-center gap-2 lg:gap-4 mt-2 sm:mt-4 lg:mt-0 mb-6 lg:mb-8 max-w-750px mx-auto text-center"
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h1 className="h3 sm:h2 lg:h1 m-0" style={{color: '#1F2A44'}}>
+              <h1 className="h3 sm:h2 lg:h1 m-0 text-gray-900 dark:text-white">
                 Transforma tu estilo con <br className="d-none lg:d-block" />
                 inteligencia artificial
               </h1>
-              <p className="fs-6" style={{color: '#6B7280'}}>
+              <p className="fs-6 text-gray-600 dark:text-gray-400">
                 Crea outfits realistas y modernos al instante.
                 <br className="d-none sm:d-block" />
                 Sube tus fotos, selecciona prendas y deja que la IA haga el resto.
@@ -178,14 +178,14 @@ export default function Hero() {
                 </Link>
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md lg:btn-lg rounded-pill"
-                  style={{color: '#1F2A44', borderColor: '#1F2A44', borderWidth: '1px', borderStyle: 'solid'}}
+                  className="btn btn-md lg:btn-lg rounded-pill border dark:border-white text-white dark:text-white dark:hover:bg-gray-700"
+                  style={{backgroundColor: '#1F2A44', borderColor: '#1F2A44'}}
                   data-uc-toggle=""
                 >
                   Solicitar demo
                 </a>
               </div>
-              <p style={{color: '#6B7280'}} className="sm:mt-1 lg:mt-0">
+              <p className="text-gray-600 dark:text-gray-400 sm:mt-1 lg:mt-0">
                 Sin tarjeta de crédito.
               </p>
             </div>

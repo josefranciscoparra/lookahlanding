@@ -6,7 +6,7 @@ import { openContactModal } from "@/utlis/toggleContactModal";
 export default function Cta() {
   return (
     <div id="cta" className="cta section panel overflow-hidden">
-      <div className="section-outer panel py-4 sm:py-6 xl:py-9" style={{backgroundColor: '#F9FAFB'}}>
+      <div className="section-outer panel py-4 sm:py-6 xl:py-9 bg-gray-50 dark:bg-gray-800">
         <div
           className="d-none lg:d-block"
           data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
@@ -94,31 +94,31 @@ export default function Cta() {
               className="vstack items-center gap-2 sm:max-w-600px lg:max-w-650px mx-auto text-center"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h3 sm:h1 xl:display-6 m-0" style={{color: '#1F2A44'}}>
+              <h2 className="h3 sm:h1 xl:display-6 m-0 text-gray-900 dark:text-white">
                 Crea outfits increíbles que se adaptan a{' '}
-                <span style={{color: '#F57197'}}>tus necesidades.</span>
+                <span className="text-pink-500">tus necesidades.</span>
               </h2>
-              <p className="fs-6 sm:fs-5 mt-1 lg:mt-2" style={{color: '#6B7280'}}>
+              <p className="fs-6 sm:fs-5 mt-1 lg:mt-2 text-gray-600 dark:text-gray-400">
                 Prueba Lookah hoy.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column">
                 <Link
                   href={`/page-pricing`}
-                  className="btn btn-md lg:btn-lg text-white"
+                  className="btn btn-md lg:btn-lg text-white rounded-pill"
                   style={{backgroundColor: '#F57197'}}
                 >
                   Prueba Lookah hoy
                 </Link>
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md lg:btn-lg"
-                  style={{color: '#1F2A44', borderColor: '#1F2A44', borderWidth: '1px', borderStyle: 'solid'}}
+                  className="btn btn-md lg:btn-lg rounded-pill border dark:border-white text-white dark:text-white dark:hover:bg-gray-700"
+                  style={{backgroundColor: '#1F2A44', borderColor: '#1F2A44'}}
                   data-uc-toggle=""
                 >
                   Contacta ventas
                 </a>
               </div>
-              <p className="fs-7" style={{color: '#6B7280'}}>
+              <p className="fs-7 text-gray-600 dark:text-gray-400">
                 Prueba de 14 días, sin tarjeta de crédito.
               </p>
             </div>
