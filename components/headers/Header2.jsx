@@ -72,7 +72,7 @@ export default function Header2() {
               <div className="uc-navbar-right">
                 <Link
                   className="btn btn-sm text-white text-none d-none lg:d-inline-flex"
-                  href={`/page-pricing`}
+                  href={`#pricing_tiers`}
                   style={{backgroundColor: '#F57197'}}
                 >
                   Ver precios

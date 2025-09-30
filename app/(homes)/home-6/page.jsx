@@ -15,7 +15,7 @@ import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import React from "react";
 export const metadata = {
   title:
-    "FashionAI - Genera imágenes profesionales de moda con IA | Viste modelos instantáneamente",
+    "Lokah - Genera imágenes profesionales de moda con IA en 3 clicks!",
   description:
     "Transforma tus fotos de modelos y prendas en imágenes de catálogo profesional con IA. Resultados instantáneos, alta resolución. Prueba gratis.",
 };

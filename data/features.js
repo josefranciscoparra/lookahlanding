@@ -91,27 +91,27 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/1web.png",
     altText: "Sube tu modelo y prendas",
     step: "01.",
     title: "Sube tu modelo y prendas",
-    description: `Comienza cargando fotos de tus modelos con fondos neutros y las prendas que deseas probar. Nuestra IA está optimizada para reconocer poses, características faciales y prendas automáticamente. Acepta múltiples formatos y las procesa en segundos.`,
+    description: `Carga las fotos de tus modelos con fondo neutro junto con las prendas que quieras probar. Nuestra IA detecta automáticamente poses, rasgos faciales y ropa, soporta múltiples formatos y procesa todo en segundos.`,
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/2web.png",
     altText: "Ajusta las opciones de estilo",
     step: "02.",
     title: "Ajusta las opciones de estilo",
-    description: `Personaliza cada detalle: elige el estilo (casual, formal, urbano), selecciona la temporada, define si quieres cuerpo completo o medio cuerpo, y ajusta la iluminación. Nuestro sistema te da control total sobre el resultado final.`,
+    description: `Personaliza cada detalle: elige entre estilos casual, formal o urbano, define la temporada, selecciona cuerpo completo o medio cuerpo y ajusta la iluminación. Tendrás el control total del resultado final con solo unos clics.`,
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/3web.png",
     altText: "Genera resultados profesionales",
     step: "03.",
     title: "Genera resultados profesionales",
-    description: `En segundos, obtén imágenes de alta calidad listas para usar. Descarga tus creaciones, compártelas con tu equipo o clientes, y guárdalas en tu galería personal. Cada resultado mantiene las características faciales originales mientras aplica las prendas de manera realista.`,
+    description: `En pocos segundos, obtén imágenes de alta calidad listas para usar. Descarga, comparte con tu equipo o clientes y guarda en tu galería personal. Cada resultado mantiene la esencia del modelo mientras aplica las prendas de forma realista y natural.`,
   },
 ];
 

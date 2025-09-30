@@ -101,21 +101,14 @@ export default function Cta() {
               <p className="fs-6 sm:fs-5 mt-1 lg:mt-2 text-gray-600 dark:text-gray-400">
                 Prueba Lookah hoy.
               </p>
-              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column">
-                <Link
-                  href={`/page-pricing`}
-                  className="btn btn-md lg:btn-lg text-white rounded-pill"
-                  style={{backgroundColor: '#F57197'}}
-                >
-                  Prueba Lookah hoy
-                </Link>
+              <div className="hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2">
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md lg:btn-lg rounded-pill border dark:border-white text-white dark:text-white dark:hover:bg-gray-700"
-                  style={{backgroundColor: '#1F2A44', borderColor: '#1F2A44'}}
+                  className="btn btn-md lg:btn-lg text-white rounded-pill"
+                  style={{backgroundColor: '#F57197'}}
                   data-uc-toggle=""
                 >
-                  Contacta ventas
+                  Prueba Lookah hoy
                 </a>
               </div>
               <p className="fs-7 text-gray-600 dark:text-gray-400">

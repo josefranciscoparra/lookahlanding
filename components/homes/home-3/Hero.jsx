@@ -168,21 +168,14 @@ export default function Hero() {
                 <br className="d-none sm:d-block" />
                 Sube tus fotos, selecciona prendas y deja que la IA haga el resto.
               </p>
-              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
-                <Link
-                  href={`/page-pricing`}
-                  className="btn btn-md lg:btn-lg text-white rounded-pill"
-                  style={{backgroundColor: '#F57197'}}
-                >
-                  Prueba gratis por 14 días
-                </Link>
+              <div className="hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2">
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md lg:btn-lg rounded-pill border dark:border-white text-white dark:text-white dark:hover:bg-gray-700"
-                  style={{backgroundColor: '#1F2A44', borderColor: '#1F2A44'}}
+                  className="btn btn-md lg:btn-lg text-white rounded-pill"
+                  style={{backgroundColor: '#F57197'}}
                   data-uc-toggle=""
                 >
-                  Solicitar demo
+                  Prueba gratis por 14 días
                 </a>
               </div>
               <p className="text-gray-600 dark:text-gray-400 sm:mt-1 lg:mt-0">

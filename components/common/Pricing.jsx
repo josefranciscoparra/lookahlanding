@@ -1,6 +1,8 @@
+"use client";
 import { tiers3 } from "@/data/pricing";
 import Link from "next/link";
 import React from "react";
+import { openContactModal } from "@/utlis/toggleContactModal";
 
 export default function Pricing() {
   return (
@@ -17,10 +19,10 @@ export default function Pricing() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 <h2 className="title h3 lg:h2 xl:h1">
-                  Simple, scalable pricing.
+                  Precios simples y escalables
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  No extra charges. No hidden fees.
+                  Sin cargos extra. Sin tarifas ocultas.
                 </p>
               </div>
               <div className="content panel">
@@ -33,7 +35,7 @@ export default function Pricing() {
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded lg:rounded-2 bg-secondary dark:bg-gray-800">
                         {tier.isPopular && (
                           <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-narrow px-1 bg-primary rounded-1 text-white fs-7 fw-medium">
-                            Popular
+                            Más Popular
                           </span>
                         )}
                         <div className="panel">
@@ -53,16 +55,17 @@ export default function Pricing() {
                               {tier.priceDetails}
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
-                              <Link
-                                href={`/sign-up`}
+                              <a
+                                onClick={openContactModal}
                                 className={`btn btn-md sm:btn-sm lg:btn-md ${
                                   tier.title === "Enterprise"
                                     ? "btn-dark"
                                     : "btn-primary"
                                 } text-white`}
+                                data-uc-toggle=""
                               >
                                 {tier.linkText}
-                              </Link>
+                              </a>
                               <span className="fs-7 opacity-70 min-h-24px">
                                 {tier.linkSubtext}
                               </span>
@@ -72,13 +75,11 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Essentials"
-                                ? "Key features:"
-                                : `Everything in ${
-                                    tier.title === "Business"
-                                      ? "Essentials"
-                                      : "Business"
-                                  }, plus:`}
+                              {tier.title === "Básico"
+                                ? "Características principales:"
+                                : tier.title === "Enterprise"
+                                ? "Todo en Profesional, más:"
+                                : `Todo en Básico, más:`}
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
@@ -97,7 +98,7 @@ export default function Pricing() {
                 className="text-center text-gray-900 dark:text-white text-opacity-70"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
               >
-                Prices exclude any applicable taxes.
+                Los precios no incluyen impuestos aplicables.
               </p>
             </div>
           </div>
