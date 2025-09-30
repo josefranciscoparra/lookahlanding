@@ -1,7 +1,6 @@
 import Home3 from "./(homes)/home-3/page";
 export const metadata = {
-  title:
-    "Lookah - Probador Virtual con IA para Outfits Modernos y Realistas",
+  title: "Lookah",
   description:
     "Lookah - Transforma tu estilo con inteligencia artificial. Crea outfits realistas al instante.",
 };
