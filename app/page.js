@@ -1,14 +1,14 @@
-import Home1 from "./(homes)/home-1/page";
+import Home3 from "./(homes)/home-3/page";
 export const metadata = {
   title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Lookah - Probador Virtual con IA para Outfits Modernos y Realistas",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Lookah - Transforma tu estilo con inteligencia artificial. Crea outfits realistas al instante.",
 };
-export default function HomePage1() {
+export default function HomePage() {
   return (
     <>
-      <Home1 />
+      <Home3 />
     </>
   );
 }
