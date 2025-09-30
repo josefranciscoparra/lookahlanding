@@ -10,23 +10,8 @@ export default function Features() {
         {features3.map((feature, i) => (
           <React.Fragment key={i}>
             <div
-              className="w-100"
-              style={{
-                backgroundColor: (i === 0 || i === 2) ? '#FFF5F8' : 'transparent'
-              }}
+              className={`w-100 ${(i === 0 || i === 2) ? 'bg-pink-50 dark:bg-gray-700' : 'bg-transparent'}`}
             >
-              <div
-                className={(i === 0 || i === 2) ? 'dark:bg-gray-700' : ''}
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  pointerEvents: 'none'
-                }}
-              />
-              <div style={{position: 'relative'}}>
               <div className="section-outer panel py-4 sm:py-5">
                 <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
                   <div className="section-inner panel">
@@ -50,7 +35,7 @@ export default function Features() {
                         <div className="col-12 sm:col-6 order-1 lg:order-0">
                           <div className="panel vstack gap-3 h-100">
                             <div className="panel vstack gap-2">
-                              <span className="fs-6 fw-bold m-0 text-pink-500">
+                              <span className="fs-6 fw-bold m-0 text-pink-500 dark:text-pink-400">
                                 {feature.step}
                               </span>
                               <h3 className="h5 lg:h4 m-0 text-gray-900 dark:text-white">
@@ -66,7 +51,6 @@ export default function Features() {
                     </div>
                   </div>
                 </div>
-              </div>
               </div>
             </div>
           </React.Fragment>
