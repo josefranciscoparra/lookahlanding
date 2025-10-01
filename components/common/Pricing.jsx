@@ -94,12 +94,6 @@ export default function Pricing() {
                   ))}
                 </div>
               </div>
-              <p
-                className="text-center text-gray-900 dark:text-white text-opacity-70"
-                data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
-              >
-                Los precios no incluyen impuestos aplicables.
-              </p>
             </div>
           </div>
         </div>
