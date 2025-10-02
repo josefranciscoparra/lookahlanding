@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer2() {
+  const { t } = useLanguage();
+
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
       <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white">
@@ -24,7 +27,7 @@ export default function Footer2() {
                         />
                       </Link>
                       <p style={{color: '#6B7280'}}>
-                        Transforma tu estilo con inteligencia artificial. Crea outfits realistas y modernos en segundos con nuestro probador virtual impulsado por IA.
+                        {t('footer.description')}
                       </p>
                     </div>
                   </div>
@@ -45,17 +48,17 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lookah © 2025, Todos los derechos reservados.
+                  {t('footer.copyright')}
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <a href="#">Aviso de privacidad</a>
+                    <a href="#">{t('footer.privacy')}</a>
                   </li>
                   <li>
-                    <a href="#">Términos legales</a>
+                    <a href="#">{t('footer.terms')}</a>
                   </li>
                   <li>
-                    <a href="#">Configuración de cookies</a>
+                    <a href="#">{t('footer.cookies')}</a>
                   </li>
                 </ul>
               </div>

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "title": "Lookah",
+    "description": "Lookah - Transforma tu estilo con inteligencia artificial. Crea outfits realistas al instante."
+  },
+  "nav": {
+    "pricing": "Ver precios"
+  },
+  "hero": {
+    "title": "Transforma tu estilo con",
+    "titleHighlight": "inteligencia artificial",
+    "subtitle": "Crea outfits realistas y modernos al instante.",
+    "description": "Sube tus fotos, selecciona prendas y deja que la IA haga el resto.",
+    "cta": "Prueba gratis por 14 días",
+    "noCreditCard": "Sin tarjeta de crédito."
+  },
+  "features": {
+    "step1": {
+      "step": "01.",
+      "title": "Sube tu modelo y prendas",
+      "description": "Carga las fotos de tus modelos con fondo neutro junto con las prendas que quieras probar. Nuestra IA detecta automáticamente poses, rasgos faciales y ropa, soporta múltiples formatos y procesa todo en segundos."
+    },
+    "step2": {
+      "step": "02.",
+      "title": "Ajusta las opciones de estilo",
+      "description": "Personaliza cada detalle: elige entre estilos casual, formal o urbano, define la temporada, selecciona cuerpo completo o medio cuerpo y ajusta la iluminación. Tendrás el control total del resultado final con solo unos clics."
+    },
+    "step3": {
+      "step": "03.",
+      "title": "Genera resultados profesionales",
+      "description": "En pocos segundos, obtén imágenes de alta calidad listas para usar. Descarga, comparte con tu equipo o clientes y guarda en tu galería personal. Cada resultado mantiene la esencia del modelo mientras aplica las prendas de forma realista y natural."
+    }
+  },
+  "pricing": {
+    "title": "Precios simples y escalables",
+    "subtitle": "Sin cargos extra. Sin tarifas ocultas.",
+    "popular": "Más Popular",
+    "plans": {
+      "basic": {
+        "title": "Básico",
+        "description": "Perfecto para emprendedores y pequeñas tiendas online.",
+        "price": "9,99 €",
+        "priceDetails": "20 fotos al mes",
+        "linkText": "Comenzar ahora",
+        "linkSubtext": "Sin tarjeta de crédito",
+        "featuresTitle": "Características principales:",
+        "features": [
+          "20 generaciones mensuales",
+          "Resolución HD (1920x1920)",
+          "Modelos básicos incluidos",
+          "Biblioteca de prendas estándar",
+          "Descarga inmediata",
+          "Soporte por email"
+        ]
+      },
+      "professional": {
+        "title": "Profesional",
+        "description": "Ideal para tiendas establecidas y catálogos comerciales.",
+        "price": "19,99 €",
+        "priceDetails": "50 fotos al mes",
+        "linkText": "Comenzar ahora",
+        "linkSubtext": "Sin tarjeta de crédito",
+        "featuresTitle": "Todo en Básico, más:",
+        "features": [
+          "50 generaciones mensuales",
+          "Alta resolución (2048x2048)",
+          "Todos los modelos premium",
+          "Biblioteca completa de prendas",
+          "Sin marca de agua",
+          "Soporte prioritario 24/7"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "Para grandes empresas con necesidades personalizadas.",
+        "price": "Hablemos",
+        "priceDetails": "Precio personalizado",
+        "linkText": "Contactar ventas",
+        "linkSubtext": "Respuesta en 24 hrs máx",
+        "featuresTitle": "Todo en Profesional, más:",
+        "features": [
+          "Generaciones ilimitadas",
+          "Modelos personalizados",
+          "API dedicada",
+          "Soporte y roles personalizados",
+          "Entrenamiento de IA*"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "description": "Transforma tu estilo con inteligencia artificial. Crea outfits realistas y modernos en segundos con nuestro probador virtual impulsado por IA.",
+    "copyright": "Lookah © 2025, Todos los derechos reservados.",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos legales",
+    "cookies": "Configuración de cookies"
+  }
+}

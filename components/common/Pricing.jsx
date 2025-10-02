@@ -1,10 +1,48 @@
 "use client";
-import { tiers3 } from "@/data/pricing";
 import Link from "next/link";
 import React from "react";
 import { openContactModal } from "@/utlis/toggleContactModal";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Pricing() {
+  const { t } = useLanguage();
+
+  const tiers = [
+    {
+      title: t('pricing.plans.basic.title'),
+      description: t('pricing.plans.basic.description'),
+      price: t('pricing.plans.basic.price'),
+      priceDetails: t('pricing.plans.basic.priceDetails'),
+      linkText: t('pricing.plans.basic.linkText'),
+      linkSubtext: t('pricing.plans.basic.linkSubtext'),
+      features: t('pricing.plans.basic.features'),
+      featuresTitle: t('pricing.plans.basic.featuresTitle'),
+      isPopular: false,
+    },
+    {
+      title: t('pricing.plans.professional.title'),
+      description: t('pricing.plans.professional.description'),
+      price: t('pricing.plans.professional.price'),
+      priceDetails: t('pricing.plans.professional.priceDetails'),
+      linkText: t('pricing.plans.professional.linkText'),
+      linkSubtext: t('pricing.plans.professional.linkSubtext'),
+      features: t('pricing.plans.professional.features'),
+      featuresTitle: t('pricing.plans.professional.featuresTitle'),
+      isPopular: true,
+    },
+    {
+      title: t('pricing.plans.enterprise.title'),
+      description: t('pricing.plans.enterprise.description'),
+      price: t('pricing.plans.enterprise.price'),
+      priceDetails: t('pricing.plans.enterprise.priceDetails'),
+      linkText: t('pricing.plans.enterprise.linkText'),
+      linkSubtext: t('pricing.plans.enterprise.linkSubtext'),
+      features: t('pricing.plans.enterprise.features'),
+      featuresTitle: t('pricing.plans.enterprise.featuresTitle'),
+      isPopular: false,
+    },
+  ];
+
   return (
     <div
       id="pricing_tiers"
@@ -19,10 +57,10 @@ export default function Pricing() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 <h2 className="title h3 lg:h2 xl:h1">
-                  Precios simples y escalables
+                  {t('pricing.title')}
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  Sin cargos extra. Sin tarifas ocultas.
+                  {t('pricing.subtitle')}
                 </p>
               </div>
               <div className="content panel">
@@ -30,12 +68,12 @@ export default function Pricing() {
                   className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-4"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 400});"
                 >
-                  {tiers3.map((tier, index) => (
+                  {tiers.map((tier, index) => (
                     <div key={index} className="tier-wrapper">
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded lg:rounded-2 bg-secondary dark:bg-gray-800">
                         {tier.isPopular && (
                           <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-narrow px-1 bg-primary rounded-1 text-white fs-7 fw-medium">
-                            Más Popular
+                            {t('pricing.popular')}
                           </span>
                         )}
                         <div className="panel">
@@ -75,13 +113,9 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Básico"
-                                ? "Características principales:"
-                                : tier.title === "Enterprise"
-                                ? "Todo en Profesional, más:"
-                                : `Todo en Básico, más:`}
+                              {tier.featuresTitle}
                             </span>
-                            {tier.features.map((feature, idx) => (
+                            {Array.isArray(tier.features) && tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
                                 <i className="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold" />
                                 <span>{feature}</span>

@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Lookah",
+    "description": "Lookah - Transform your style with artificial intelligence. Create realistic outfits instantly."
+  },
+  "nav": {
+    "pricing": "View pricing",
+    "home": "Home",
+    "howItWorks": "How it works",
+    "pricingMenu": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Transform your style with",
+    "titleHighlight": "artificial intelligence",
+    "subtitle": "Create realistic and modern outfits instantly.",
+    "description": "Upload your photos, select garments and let AI do the rest.",
+    "cta": "Try free for 14 days",
+    "noCreditCard": "No credit card required."
+  },
+  "features": {
+    "step1": {
+      "step": "01.",
+      "title": "Upload your model and garments",
+      "description": "Upload photos of your models with a neutral background along with the garments you want to try. Our AI automatically detects poses, facial features and clothing, supports multiple formats and processes everything in seconds."
+    },
+    "step2": {
+      "step": "02.",
+      "title": "Adjust style options",
+      "description": "Customize every detail: choose from casual, formal or urban styles, define the season, select full body or half body and adjust lighting. You'll have full control over the final result with just a few clicks."
+    },
+    "step3": {
+      "step": "03.",
+      "title": "Generate professional results",
+      "description": "In just seconds, get high-quality images ready to use. Download, share with your team or clients and save to your personal gallery. Each result maintains the essence of the model while applying garments realistically and naturally."
+    }
+  },
+  "pricing": {
+    "title": "Simple and scalable pricing",
+    "subtitle": "No extra charges. No hidden fees.",
+    "popular": "Most Popular",
+    "plans": {
+      "basic": {
+        "title": "Basic",
+        "description": "Perfect for entrepreneurs and small online stores.",
+        "price": "$9.99",
+        "priceDetails": "20 photos per month",
+        "linkText": "Get started",
+        "linkSubtext": "No credit card required",
+        "featuresTitle": "Main features:",
+        "features": [
+          "20 monthly generations",
+          "HD resolution (1920x1920)",
+          "Basic models included",
+          "Standard garment library",
+          "Instant download",
+          "Email support"
+        ]
+      },
+      "professional": {
+        "title": "Professional",
+        "description": "Ideal for established stores and commercial catalogs.",
+        "price": "$19.99",
+        "priceDetails": "50 photos per month",
+        "linkText": "Get started",
+        "linkSubtext": "No credit card required",
+        "featuresTitle": "Everything in Basic, plus:",
+        "features": [
+          "50 monthly generations",
+          "High resolution (2048x2048)",
+          "All premium models",
+          "Complete garment library",
+          "No watermark",
+          "Priority 24/7 support"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "description": "For large companies with custom needs.",
+        "price": "Let's talk",
+        "priceDetails": "Custom pricing",
+        "linkText": "Contact sales",
+        "linkSubtext": "Response within 24 hrs max",
+        "featuresTitle": "Everything in Professional, plus:",
+        "features": [
+          "Unlimited generations",
+          "Custom models",
+          "Dedicated API",
+          "Custom support and roles",
+          "AI training*"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "description": "Transform your style with artificial intelligence. Create realistic and modern outfits in seconds with our AI-powered virtual fitting room.",
+    "copyright": "Lookah © 2025, All rights reserved.",
+    "privacy": "Privacy notice",
+    "terms": "Legal terms",
+    "cookies": "Cookie settings"
+  }
+}

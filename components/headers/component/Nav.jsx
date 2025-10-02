@@ -4,22 +4,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { pagesData } from "@/data/menu";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Nav() {
   const pathname = usePathname();
+  const { t } = useLanguage();
+
   return (
     <>
       <li>
-        <a href={`#hero_header`}>Inicio</a>
+        <a href={`#hero_header`}>{t('nav.home')}</a>
       </li>
       <li>
-        <a href={`#main_features`}>Cómo funciona</a>
+        <a href={`#main_features`}>{t('nav.howItWorks')}</a>
       </li>
       <li>
-        <a href={`#pricing_tiers`}>Precios</a>
+        <a href={`#pricing_tiers`}>{t('nav.pricingMenu')}</a>
       </li>
       <li>
-        <Link href={`/page-contact`}>Contacto</Link>
+        <Link href={`/page-contact`}>{t('nav.contact')}</Link>
       </li>
       {/* <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">

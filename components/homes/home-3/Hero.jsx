@@ -2,8 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { openContactModal } from "@/utlis/toggleContactModal";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen bg-white dark:bg-gray-900 z-0" />
@@ -160,13 +163,13 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h3 sm:h2 lg:h1 m-0 text-gray-900 dark:text-white">
-                Transforma tu estilo con <br className="d-none lg:d-block" />
-                inteligencia artificial
+                {t('hero.title')} <br className="d-none lg:d-block" />
+                {t('hero.titleHighlight')}
               </h1>
               <p className="fs-6 text-gray-600 dark:text-gray-400">
-                Crea outfits realistas y modernos al instante.
+                {t('hero.subtitle')}
                 <br className="d-none sm:d-block" />
-                Sube tus fotos, selecciona prendas y deja que la IA haga el resto.
+                {t('hero.description')}
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2">
                 <a
@@ -175,11 +178,11 @@ export default function Hero() {
                   style={{backgroundColor: '#F57197'}}
                   data-uc-toggle=""
                 >
-                  Prueba gratis por 14 días
+                  {t('hero.cta')}
                 </a>
               </div>
               <p className="text-gray-600 dark:text-gray-400 sm:mt-1 lg:mt-0">
-                Sin tarjeta de crédito.
+                {t('hero.noCreditCard')}
               </p>
             </div>
             <div

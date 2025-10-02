@@ -1,5 +1,6 @@
 "use client";
-import Context from "@/context/Context";
+import Context from "@/context/Context.jsx";
+import { LanguageProvider } from "@/context/LanguageContext";
 import "../public/assets/css/main.css";
 import "../public/assets/custom.scss";
 import "react-modal-video/scss/modal-video.scss";
@@ -102,15 +103,17 @@ export default function RootLayout({ children }) {
     <html lang="en" dir="ltr">
       <body>
         {" "}
-        <Context>
-          <ParallaxProvider>{children}</ParallaxProvider>
-          <MobileMenu />
-          <ContactModal />
-          <NewsletterModal />
-          <SearchModal />
-          <Cart />
-          <BacktoTop />
-        </Context>
+        <LanguageProvider>
+          <Context>
+            <ParallaxProvider>{children}</ParallaxProvider>
+            <MobileMenu />
+            <ContactModal />
+            <NewsletterModal />
+            <SearchModal />
+            <Cart />
+            <BacktoTop />
+          </Context>
+        </LanguageProvider>
       </body>
     </html>
   );

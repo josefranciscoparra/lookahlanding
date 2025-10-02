@@ -4,9 +4,12 @@ import Link from "next/link";
 import Nav from "./component/Nav";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
+import LanguageToggle from "@/components/common/LanguageToggle";
+import { useLanguage } from "@/context/LanguageContext";
 // uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky uc-sticky-below uc-sticky-fixed
 // --uc-nav-height: 80px; position: fixed !important; width: 1205px !important; margin-top: 0px !important; top: 0px;
 export default function Header2() {
+  const { t } = useLanguage();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
 
@@ -70,13 +73,16 @@ export default function Header2() {
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                <Link
-                  className="btn btn-sm text-white text-none d-none lg:d-inline-flex"
-                  href={`#pricing_tiers`}
-                  style={{backgroundColor: '#F57197'}}
-                >
-                  Ver precios
-                </Link>
+                <div className="hstack gap-2">
+                  <Link
+                    className="btn btn-sm text-white text-none d-none lg:d-inline-flex"
+                    href={`#pricing_tiers`}
+                    style={{backgroundColor: '#F57197'}}
+                  >
+                    {t('nav.pricing')}
+                  </Link>
+                  <LanguageToggle />
+                </div>
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                   onClick={openMobileMenu}

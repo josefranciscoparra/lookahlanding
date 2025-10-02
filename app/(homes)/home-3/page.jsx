@@ -1,3 +1,4 @@
+"use client";
 import Header2 from "@/components/headers/Header2";
 import Pricing from "@/components/common/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
@@ -10,12 +11,7 @@ import Blog from "@/components/homes/home-3/Blog";
 import Cta from "@/components/homes/home-3/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
-export const metadata = {
-  title:
-    "Lookah - Probador Virtual con IA para Outfits Modernos y Realistas",
-  description:
-    "Lookah - Transforma tu estilo con inteligencia artificial. Crea outfits realistas al instante.",
-};
+
 export default function HomePage3() {
   return (
     <>

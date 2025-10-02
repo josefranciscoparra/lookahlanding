@@ -1,13 +1,42 @@
 "use client";
-import { features3 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Features() {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      id: 1,
+      imgSrc: "/assets/images/template/1web.png",
+      altText: t('features.step1.title'),
+      step: t('features.step1.step'),
+      title: t('features.step1.title'),
+      description: t('features.step1.description'),
+    },
+    {
+      id: 2,
+      imgSrc: "/assets/images/template/2web.png",
+      altText: t('features.step2.title'),
+      step: t('features.step2.step'),
+      title: t('features.step2.title'),
+      description: t('features.step2.description'),
+    },
+    {
+      id: 3,
+      imgSrc: "/assets/images/template/3web.png",
+      altText: t('features.step3.title'),
+      step: t('features.step3.step'),
+      title: t('features.step3.title'),
+      description: t('features.step3.description'),
+    },
+  ];
+
   return (
     <div id="main_features" className="main-features section panel">
       <div className="panel vstack">
-        {features3.map((feature, i) => (
+        {features.map((feature, i) => (
           <React.Fragment key={i}>
             <div
               className={`w-100 ${(i === 0 || i === 2) ? 'bg-pink-50 dark:bg-gray-700' : 'bg-transparent'}`}
