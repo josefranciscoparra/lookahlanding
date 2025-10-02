@@ -1,22 +1,16 @@
 export const footerLinks = [
   {
     links: [
-      { href: "#hero_header", label: "Inicio" },
-      { href: "#main_features", label: "Cómo funciona" },
-      { href: "#pricing_tiers", label: "Precios" },
+      { href: "/#hero_header", label: "Inicio" },
+      { href: "/#main_features", label: "Cómo funciona" },
+      { href: "/#pricing_tiers", label: "Precios" },
     ],
   },
   {
     links: [
-      { href: "/page-contact", label: "Contacto" },
-      { href: "/page-about", label: "Acerca de" },
-      { href: "/page-terms", label: "Términos de servicio" },
-    ],
-  },
-  {
-    links: [
-      { href: "/page-privacy", label: "Política de privacidad" },
-      { href: "/page-terms", label: "FAQ" },
+      { href: "/privacy", label: "Aviso de privacidad" },
+      { href: "/terms", label: "Términos legales" },
+      { href: "/cookies", label: "Política de cookies" },
     ],
   },
 ];

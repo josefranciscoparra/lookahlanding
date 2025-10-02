@@ -45,33 +45,22 @@ export default function Footer2() {
                 ))}
               </div>
             </div>
-            <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
-              <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
-                <p className="opacity-60">
-                  {t('footer.copyright')}
-                </p>
-                <ul className="nav-x gap-2 fw-medium">
-                  <li>
-                    <Link href="/privacy">{t('footer.privacy')}</Link>
-                  </li>
-                  <li>
-                    <Link href="/terms">{t('footer.terms')}</Link>
-                  </li>
-                  <li>
-                    <Link href="/cookies">{t('footer.cookies')}</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="hstack justify-center lg:justify-end gap-2 lg:gap-3">
+            <div className="uc-footer-bottom panel vstack gap-4 pt-4 lg:pt-6 border-top dark:text-white">
+              <div className="hstack justify-center gap-2 lg:gap-3">
                 <ul className="nav-x gap-2">
                   {socialLinks.map((link, index) => (
                     <li key={index}>
-                      <a href={link.href}>
+                      <a href={link.href} target="_blank" rel="noopener noreferrer">
                         <i className={`icon icon-2 ${link.iconClass}`} style={{color: '#F57197'}} />
                       </a>
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div className="text-center">
+                <p className="opacity-60 m-0">
+                  {t('footer.copyright')}
+                </p>
               </div>
             </div>
           </div>
