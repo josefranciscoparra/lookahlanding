@@ -42,52 +42,49 @@
     "plans": {
       "basic": {
         "title": "Basic",
-        "description": "Perfect for entrepreneurs and small online stores.",
+        "description": "Perfect to get started and try the platform.",
         "price": "$9.99",
-        "priceDetails": "20 photos per month",
+        "priceDetails": "20 generations/month",
         "linkText": "Get started",
         "linkSubtext": "No credit card required",
-        "featuresTitle": "Main features:",
+        "featuresTitle": "Includes:",
         "features": [
-          "20 monthly generations",
-          "HD resolution (1920x1920)",
-          "Basic models included",
-          "Standard garment library",
+          "20 image generations per month",
+          "High quality and realism",
           "Instant download",
           "Email support"
         ]
       },
       "professional": {
         "title": "Professional",
-        "description": "Ideal for established stores and commercial catalogs.",
+        "description": "For online stores and professional catalogs.",
         "price": "$19.99",
-        "priceDetails": "50 photos per month",
+        "priceDetails": "50 generations/month",
         "linkText": "Get started",
         "linkSubtext": "No credit card required",
-        "featuresTitle": "Everything in Basic, plus:",
+        "featuresTitle": "Everything above, plus:",
         "features": [
-          "50 monthly generations",
-          "High resolution (2048x2048)",
-          "All premium models",
-          "Complete garment library",
-          "No watermark",
-          "Priority 24/7 support"
+          "50 image generations per month",
+          "AI model generation",
+          "Higher production volume",
+          "Priority support"
         ]
       },
       "enterprise": {
         "title": "Enterprise",
-        "description": "For large companies with custom needs.",
+        "description": "Custom solutions for large enterprises.",
         "price": "Let's talk",
-        "priceDetails": "Custom pricing",
+        "priceDetails": "Custom volume",
         "linkText": "Contact sales",
         "linkSubtext": "Response within 24 hrs max",
-        "featuresTitle": "Everything in Professional, plus:",
+        "featuresTitle": "Fully customizable:",
         "features": [
-          "Unlimited generations",
-          "Custom models",
-          "Dedicated API",
-          "Custom support and roles",
-          "AI training*"
+          "Generations tailored to your needs",
+          "Unlimited AI model creation",
+          "Dedicated 24/7 support",
+          "Custom-developed features",
+          "API integration",
+          "Guaranteed SLA"
         ]
       }
     }

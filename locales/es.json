@@ -42,52 +42,49 @@
     "plans": {
       "basic": {
         "title": "Básico",
-        "description": "Perfecto para emprendedores y pequeñas tiendas online.",
+        "description": "Ideal para empezar y probar la plataforma.",
         "price": "9,99 €",
-        "priceDetails": "20 fotos al mes",
+        "priceDetails": "20 generaciones/mes",
         "linkText": "Comenzar ahora",
         "linkSubtext": "Sin tarjeta de crédito",
-        "featuresTitle": "Características principales:",
+        "featuresTitle": "Incluye:",
         "features": [
-          "20 generaciones mensuales",
-          "Resolución HD (1920x1920)",
-          "Modelos básicos incluidos",
-          "Biblioteca de prendas estándar",
+          "20 generaciones de imágenes al mes",
+          "Alta calidad y realismo",
           "Descarga inmediata",
           "Soporte por email"
         ]
       },
       "professional": {
         "title": "Profesional",
-        "description": "Ideal para tiendas establecidas y catálogos comerciales.",
+        "description": "Para tiendas online y catálogos profesionales.",
         "price": "19,99 €",
-        "priceDetails": "50 fotos al mes",
+        "priceDetails": "50 generaciones/mes",
         "linkText": "Comenzar ahora",
         "linkSubtext": "Sin tarjeta de crédito",
-        "featuresTitle": "Todo en Básico, más:",
+        "featuresTitle": "Todo lo anterior, más:",
         "features": [
-          "50 generaciones mensuales",
-          "Alta resolución (2048x2048)",
-          "Todos los modelos premium",
-          "Biblioteca completa de prendas",
-          "Sin marca de agua",
-          "Soporte prioritario 24/7"
+          "50 generaciones de imágenes al mes",
+          "Generación de modelos por IA",
+          "Mayor volumen de producción",
+          "Soporte prioritario"
         ]
       },
       "enterprise": {
         "title": "Enterprise",
-        "description": "Para grandes empresas con necesidades personalizadas.",
+        "description": "Soluciones a medida para grandes empresas.",
         "price": "Hablemos",
-        "priceDetails": "Precio personalizado",
+        "priceDetails": "Volumen personalizado",
         "linkText": "Contactar ventas",
         "linkSubtext": "Respuesta en 24 hrs máx",
-        "featuresTitle": "Todo en Profesional, más:",
+        "featuresTitle": "Totalmente personalizable:",
         "features": [
-          "Generaciones ilimitadas",
-          "Modelos personalizados",
-          "API dedicada",
-          "Soporte y roles personalizados",
-          "Entrenamiento de IA*"
+          "Generaciones adaptadas a tus necesidades",
+          "Creación de modelos por IA ilimitada",
+          "Soporte dedicado 24/7",
+          "Funcionalidades desarrolladas a medida",
+          "Integración API",
+          "SLA garantizado"
         ]
       }
     }
