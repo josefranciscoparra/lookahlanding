@@ -9,6 +9,7 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function MobileMenu() {
   const pathname = usePathname();
   const { t } = useLanguage();
+  const isHomePage = pathname === '/';
   const elementRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -75,13 +76,13 @@ export default function MobileMenu() {
         <div className="panel">
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
             <li>
-              <a href={`#hero_header`}>{t('nav.home')}</a>
+              <Link href={isHomePage ? `#hero_header` : `/#hero_header`}>{t('nav.home')}</Link>
             </li>
             <li>
-              <a href={`#main_features`}>{t('nav.howItWorks')}</a>
+              <Link href={isHomePage ? `#main_features` : `/#main_features`}>{t('nav.howItWorks')}</Link>
             </li>
             <li>
-              <a href={`#pricing_tiers`}>{t('nav.pricingMenu')}</a>
+              <Link href={isHomePage ? `#pricing_tiers` : `/#pricing_tiers`}>{t('nav.pricingMenu')}</Link>
             </li>
           </ul>
         </div>

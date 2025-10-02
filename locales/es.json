@@ -95,5 +95,200 @@
     "privacy": "Aviso de privacidad",
     "terms": "Términos legales",
     "cookies": "Configuración de cookies"
+  },
+  "privacy": {
+    "title": "Aviso de Privacidad",
+    "lastUpdated": "Última actualización: 2 de octubre de 2025",
+    "intro": "En Lookah, nos tomamos muy en serio la protección de tus datos personales. Este Aviso de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos tu información cuando utilizas nuestra plataforma de prueba virtual de ropa impulsada por inteligencia artificial.",
+    "sections": {
+      "dataCollection": {
+        "title": "1. Información que Recopilamos",
+        "content": "Recopilamos diferentes tipos de información para proporcionar y mejorar nuestros servicios:",
+        "items": [
+          "Información de cuenta: nombre, correo electrónico y contraseña cuando te registras",
+          "Imágenes: fotos de modelos y prendas que subes a nuestra plataforma",
+          "Datos de uso: información sobre cómo utilizas nuestros servicios, incluyendo generaciones de imágenes",
+          "Información técnica: dirección IP, tipo de navegador, sistema operativo y cookies",
+          "Datos de pago: procesados de forma segura a través de proveedores externos"
+        ]
+      },
+      "dataUse": {
+        "title": "2. Cómo Utilizamos tu Información",
+        "content": "Utilizamos la información recopilada para:",
+        "items": [
+          "Proporcionar y mantener nuestros servicios de IA",
+          "Procesar tus solicitudes de generación de imágenes",
+          "Mejorar nuestros algoritmos de inteligencia artificial",
+          "Comunicarnos contigo sobre tu cuenta y nuestros servicios",
+          "Gestionar pagos y facturación",
+          "Detectar y prevenir fraudes o usos indebidos",
+          "Cumplir con nuestras obligaciones legales"
+        ]
+      },
+      "dataSharing": {
+        "title": "3. Compartir Información",
+        "content": "No vendemos tus datos personales. Podemos compartir tu información únicamente con:",
+        "items": [
+          "Proveedores de servicios que nos ayudan a operar la plataforma",
+          "Procesadores de pago para gestionar transacciones",
+          "Autoridades legales cuando sea requerido por ley"
+        ]
+      },
+      "dataSecurity": {
+        "title": "4. Seguridad de Datos",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger tus datos personales, incluyendo encriptación, controles de acceso y auditorías regulares de seguridad."
+      },
+      "userRights": {
+        "title": "5. Tus Derechos",
+        "content": "Tienes derecho a:",
+        "items": [
+          "Acceder a tus datos personales",
+          "Rectificar información inexacta",
+          "Solicitar la eliminación de tus datos",
+          "Oponerte al procesamiento de tus datos",
+          "Solicitar la portabilidad de tus datos",
+          "Retirar tu consentimiento en cualquier momento"
+        ]
+      },
+      "dataRetention": {
+        "title": "6. Retención de Datos",
+        "content": "Conservamos tus datos personales solo durante el tiempo necesario para cumplir con los propósitos establecidos en este aviso, a menos que la ley requiera o permita un período de retención más largo."
+      },
+      "cookies": {
+        "title": "7. Cookies",
+        "content": "Utilizamos cookies y tecnologías similares para mejorar tu experiencia. Puedes gestionar tus preferencias de cookies en la configuración de tu navegador."
+      },
+      "contact": {
+        "title": "8. Contacto",
+        "content": "Si tienes preguntas sobre este Aviso de Privacidad o deseas ejercer tus derechos, contáctanos en:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos Legales",
+    "lastUpdated": "Última actualización: 2 de octubre de 2025",
+    "intro": "Bienvenido a Lookah. Al acceder y utilizar nuestra plataforma, aceptas cumplir con estos Términos Legales. Por favor, léelos cuidadosamente.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Aceptación de los Términos",
+        "content": "Al crear una cuenta y utilizar los servicios de Lookah, aceptas estar vinculado por estos términos, todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos términos, no utilices nuestros servicios."
+      },
+      "services": {
+        "title": "2. Descripción de los Servicios",
+        "content": "Lookah proporciona una plataforma de inteligencia artificial que permite a los usuarios generar imágenes de modelos usando diferentes prendas de ropa. Los servicios incluyen:",
+        "items": [
+          "Subida de imágenes de modelos y prendas",
+          "Generación de imágenes mediante IA",
+          "Descarga de resultados generados",
+          "Almacenamiento de galería personal"
+        ]
+      },
+      "userAccount": {
+        "title": "3. Cuenta de Usuario",
+        "content": "Para utilizar nuestros servicios, debes:",
+        "items": [
+          "Proporcionar información precisa y completa durante el registro",
+          "Mantener la seguridad de tu contraseña",
+          "Notificarnos inmediatamente cualquier uso no autorizado",
+          "Ser mayor de 18 años o tener el consentimiento de tus padres/tutores"
+        ]
+      },
+      "usage": {
+        "title": "4. Uso Aceptable",
+        "content": "Te comprometes a NO:",
+        "items": [
+          "Subir contenido ilegal, ofensivo o que infrinja derechos de terceros",
+          "Usar imágenes de personas sin su consentimiento",
+          "Generar contenido con fines fraudulentos o engañosos",
+          "Intentar acceder o interferir con nuestros sistemas",
+          "Revender o redistribuir nuestros servicios sin autorización",
+          "Usar la plataforma para crear deepfakes maliciosos o contenido inapropiado"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "5. Propiedad Intelectual",
+        "content": "Tú conservas todos los derechos sobre las imágenes que subes. Las imágenes generadas por nuestra IA te pertenecen, pero nos concedes una licencia para procesarlas y mejorar nuestros servicios. Lookah y sus logos son marcas registradas de nuestra propiedad."
+      },
+      "payment": {
+        "title": "6. Pagos y Suscripciones",
+        "content": "Los planes de suscripción se facturan mensualmente. Puedes cancelar en cualquier momento, pero no se realizan reembolsos por períodos parciales. Nos reservamos el derecho de modificar los precios con previo aviso."
+      },
+      "termination": {
+        "title": "7. Terminación",
+        "content": "Podemos suspender o terminar tu cuenta si violas estos términos, sin previo aviso y sin reembolso. También puedes cerrar tu cuenta en cualquier momento desde la configuración."
+      },
+      "disclaimer": {
+        "title": "8. Limitación de Responsabilidad",
+        "content": "Lookah se proporciona 'tal cual' sin garantías de ningún tipo. No somos responsables por cualquier daño directo, indirecto, incidental o consecuente que resulte del uso de nuestros servicios."
+      },
+      "changes": {
+        "title": "9. Modificaciones",
+        "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Te notificaremos de cambios importantes por correo electrónico o mediante un aviso en la plataforma."
+      },
+      "law": {
+        "title": "10. Ley Aplicable",
+        "content": "Estos términos se rigen por las leyes de España. Cualquier disputa se resolverá en los tribunales de Madrid, España."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: 2 de octubre de 2025",
+    "intro": "Esta Política de Cookies explica qué son las cookies, cómo las utilizamos y cómo puedes gestionarlas en Lookah.",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. ¿Qué son las Cookies?",
+        "content": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen de manera más eficiente y proporcionar información a los propietarios del sitio."
+      },
+      "typesOfCookies": {
+        "title": "2. Tipos de Cookies que Utilizamos",
+        "essential": {
+          "title": "Cookies Esenciales",
+          "content": "Necesarias para el funcionamiento básico de la plataforma, como mantener tu sesión iniciada y recordar tus preferencias de idioma."
+        },
+        "analytics": {
+          "title": "Cookies Analíticas",
+          "content": "Nos ayudan a entender cómo los usuarios interactúan con nuestra plataforma, permitiéndonos mejorar la experiencia del usuario. Utilizamos herramientas como Google Analytics."
+        },
+        "functional": {
+          "title": "Cookies Funcionales",
+          "content": "Permiten funcionalidades mejoradas y personalizadas, como recordar tus ajustes y preferencias."
+        },
+        "marketing": {
+          "title": "Cookies de Marketing",
+          "content": "Se utilizan para rastrear visitantes en sitios web y mostrar anuncios relevantes. Trabajamos con socios publicitarios que pueden establecer estas cookies."
+        }
+      },
+      "cookiesList": {
+        "title": "3. Cookies Específicas que Usamos",
+        "content": "Lista de cookies utilizadas en Lookah:",
+        "items": [
+          "_lookah_session: Cookie de sesión esencial (duración: sesión)",
+          "_lookah_lang: Preferencia de idioma (duración: 1 año)",
+          "_ga: Google Analytics (duración: 2 años)",
+          "_gid: Google Analytics (duración: 24 horas)",
+          "_lookah_auth: Token de autenticación (duración: 30 días)"
+        ]
+      },
+      "thirdParty": {
+        "title": "4. Cookies de Terceros",
+        "content": "Algunos de nuestros socios (como procesadores de pago y proveedores de análisis) pueden establecer cookies en tu dispositivo cuando visitas Lookah. No controlamos estas cookies y te recomendamos revisar las políticas de privacidad de estos terceros."
+      },
+      "manageCookies": {
+        "title": "5. Cómo Gestionar las Cookies",
+        "content": "Puedes controlar y gestionar las cookies de varias formas:",
+        "items": [
+          "Configuración del navegador: La mayoría de los navegadores te permiten rechazar o aceptar cookies",
+          "Eliminar cookies: Puedes eliminar todas las cookies ya almacenadas en tu dispositivo",
+          "Bloquear cookies: Puedes configurar tu navegador para bloquear cookies de sitios específicos",
+          "Panel de preferencias: Utiliza nuestro centro de preferencias de cookies (próximamente)"
+        ],
+        "warning": "Ten en cuenta que si deshabilitas las cookies, algunas partes de nuestra plataforma pueden no funcionar correctamente."
+      },
+      "updates": {
+        "title": "6. Actualizaciones de esta Política",
+        "content": "Podemos actualizar esta Política de Cookies ocasionalmente para reflejar cambios en nuestras prácticas o por razones operativas, legales o regulatorias. Te recomendamos revisar esta página periódicamente."
+      }
+    }
   }
 }

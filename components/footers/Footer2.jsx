@@ -52,13 +52,13 @@ export default function Footer2() {
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <a href="#">{t('footer.privacy')}</a>
+                    <Link href="/privacy">{t('footer.privacy')}</Link>
                   </li>
                   <li>
-                    <a href="#">{t('footer.terms')}</a>
+                    <Link href="/terms">{t('footer.terms')}</Link>
                   </li>
                   <li>
-                    <a href="#">{t('footer.cookies')}</a>
+                    <Link href="/cookies">{t('footer.cookies')}</Link>
                   </li>
                 </ul>
               </div>

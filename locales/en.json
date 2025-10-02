@@ -95,5 +95,200 @@
     "privacy": "Privacy notice",
     "terms": "Legal terms",
     "cookies": "Cookie settings"
+  },
+  "privacy": {
+    "title": "Privacy Notice",
+    "lastUpdated": "Last updated: October 2, 2025",
+    "intro": "At Lookah, we take the protection of your personal data very seriously. This Privacy Notice explains how we collect, use, share, and protect your information when you use our AI-powered virtual clothing try-on platform.",
+    "sections": {
+      "dataCollection": {
+        "title": "1. Information We Collect",
+        "content": "We collect different types of information to provide and improve our services:",
+        "items": [
+          "Account information: name, email, and password when you register",
+          "Images: photos of models and garments you upload to our platform",
+          "Usage data: information about how you use our services, including image generations",
+          "Technical information: IP address, browser type, operating system, and cookies",
+          "Payment data: processed securely through external providers"
+        ]
+      },
+      "dataUse": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the collected information to:",
+        "items": [
+          "Provide and maintain our AI services",
+          "Process your image generation requests",
+          "Improve our artificial intelligence algorithms",
+          "Communicate with you about your account and our services",
+          "Manage payments and billing",
+          "Detect and prevent fraud or misuse",
+          "Comply with our legal obligations"
+        ]
+      },
+      "dataSharing": {
+        "title": "3. Information Sharing",
+        "content": "We do not sell your personal data. We may share your information only with:",
+        "items": [
+          "Service providers who help us operate the platform",
+          "Payment processors to handle transactions",
+          "Legal authorities when required by law"
+        ]
+      },
+      "dataSecurity": {
+        "title": "4. Data Security",
+        "content": "We implement technical and organizational security measures to protect your personal data, including encryption, access controls, and regular security audits."
+      },
+      "userRights": {
+        "title": "5. Your Rights",
+        "content": "You have the right to:",
+        "items": [
+          "Access your personal data",
+          "Rectify inaccurate information",
+          "Request deletion of your data",
+          "Object to the processing of your data",
+          "Request data portability",
+          "Withdraw your consent at any time"
+        ]
+      },
+      "dataRetention": {
+        "title": "6. Data Retention",
+        "content": "We retain your personal data only for as long as necessary to fulfill the purposes set out in this notice, unless a longer retention period is required or permitted by law."
+      },
+      "cookies": {
+        "title": "7. Cookies",
+        "content": "We use cookies and similar technologies to improve your experience. You can manage your cookie preferences in your browser settings."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "content": "If you have questions about this Privacy Notice or wish to exercise your rights, contact us at:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Legal Terms",
+    "lastUpdated": "Last updated: October 2, 2025",
+    "intro": "Welcome to Lookah. By accessing and using our platform, you agree to comply with these Legal Terms. Please read them carefully.",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By creating an account and using Lookah's services, you agree to be bound by these terms, all applicable laws and regulations. If you do not agree with any of these terms, do not use our services."
+      },
+      "services": {
+        "title": "2. Service Description",
+        "content": "Lookah provides an artificial intelligence platform that allows users to generate images of models wearing different clothing items. Services include:",
+        "items": [
+          "Upload of model and garment images",
+          "AI-powered image generation",
+          "Download of generated results",
+          "Personal gallery storage"
+        ]
+      },
+      "userAccount": {
+        "title": "3. User Account",
+        "content": "To use our services, you must:",
+        "items": [
+          "Provide accurate and complete information during registration",
+          "Maintain the security of your password",
+          "Immediately notify us of any unauthorized use",
+          "Be at least 18 years old or have parental/guardian consent"
+        ]
+      },
+      "usage": {
+        "title": "4. Acceptable Use",
+        "content": "You agree NOT to:",
+        "items": [
+          "Upload illegal, offensive content or content that infringes third-party rights",
+          "Use images of people without their consent",
+          "Generate content for fraudulent or deceptive purposes",
+          "Attempt to access or interfere with our systems",
+          "Resell or redistribute our services without authorization",
+          "Use the platform to create malicious deepfakes or inappropriate content"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "5. Intellectual Property",
+        "content": "You retain all rights to the images you upload. Images generated by our AI belong to you, but you grant us a license to process them and improve our services. Lookah and its logos are our registered trademarks."
+      },
+      "payment": {
+        "title": "6. Payments and Subscriptions",
+        "content": "Subscription plans are billed monthly. You can cancel at any time, but no refunds are provided for partial periods. We reserve the right to modify prices with prior notice."
+      },
+      "termination": {
+        "title": "7. Termination",
+        "content": "We may suspend or terminate your account if you violate these terms, without prior notice and without refund. You can also close your account at any time from settings."
+      },
+      "disclaimer": {
+        "title": "8. Limitation of Liability",
+        "content": "Lookah is provided 'as is' without warranties of any kind. We are not responsible for any direct, indirect, incidental, or consequential damages resulting from the use of our services."
+      },
+      "changes": {
+        "title": "9. Modifications",
+        "content": "We reserve the right to modify these terms at any time. We will notify you of significant changes by email or through a notice on the platform."
+      },
+      "law": {
+        "title": "10. Applicable Law",
+        "content": "These terms are governed by the laws of Spain. Any disputes will be resolved in the courts of Madrid, Spain."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: October 2, 2025",
+    "intro": "This Cookie Policy explains what cookies are, how we use them, and how you can manage them on Lookah.",
+    "sections": {
+      "whatAreCookies": {
+        "title": "1. What are Cookies?",
+        "content": "Cookies are small text files stored on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to site owners."
+      },
+      "typesOfCookies": {
+        "title": "2. Types of Cookies We Use",
+        "essential": {
+          "title": "Essential Cookies",
+          "content": "Necessary for the basic functioning of the platform, such as keeping you logged in and remembering your language preferences."
+        },
+        "analytics": {
+          "title": "Analytics Cookies",
+          "content": "Help us understand how users interact with our platform, allowing us to improve the user experience. We use tools like Google Analytics."
+        },
+        "functional": {
+          "title": "Functional Cookies",
+          "content": "Enable enhanced and personalized functionalities, such as remembering your settings and preferences."
+        },
+        "marketing": {
+          "title": "Marketing Cookies",
+          "content": "Used to track visitors across websites and display relevant ads. We work with advertising partners who may set these cookies."
+        }
+      },
+      "cookiesList": {
+        "title": "3. Specific Cookies We Use",
+        "content": "List of cookies used on Lookah:",
+        "items": [
+          "_lookah_session: Essential session cookie (duration: session)",
+          "_lookah_lang: Language preference (duration: 1 year)",
+          "_ga: Google Analytics (duration: 2 years)",
+          "_gid: Google Analytics (duration: 24 hours)",
+          "_lookah_auth: Authentication token (duration: 30 days)"
+        ]
+      },
+      "thirdParty": {
+        "title": "4. Third-Party Cookies",
+        "content": "Some of our partners (such as payment processors and analytics providers) may set cookies on your device when you visit Lookah. We do not control these cookies and recommend reviewing the privacy policies of these third parties."
+      },
+      "manageCookies": {
+        "title": "5. How to Manage Cookies",
+        "content": "You can control and manage cookies in various ways:",
+        "items": [
+          "Browser settings: Most browsers allow you to reject or accept cookies",
+          "Delete cookies: You can delete all cookies already stored on your device",
+          "Block cookies: You can configure your browser to block cookies from specific sites",
+          "Preference panel: Use our cookie preferences center (coming soon)"
+        ],
+        "warning": "Please note that if you disable cookies, some parts of our platform may not function properly."
+      },
+      "updates": {
+        "title": "6. Updates to this Policy",
+        "content": "We may update this Cookie Policy occasionally to reflect changes in our practices or for operational, legal, or regulatory reasons. We recommend reviewing this page periodically."
+      }
+    }
   }
 }

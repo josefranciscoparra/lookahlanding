@@ -9,20 +9,18 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Nav() {
   const pathname = usePathname();
   const { t } = useLanguage();
+  const isHomePage = pathname === '/';
 
   return (
     <>
       <li>
-        <a href={`#hero_header`}>{t('nav.home')}</a>
+        <Link href={isHomePage ? `#hero_header` : `/#hero_header`}>{t('nav.home')}</Link>
       </li>
       <li>
-        <a href={`#main_features`}>{t('nav.howItWorks')}</a>
+        <Link href={isHomePage ? `#main_features` : `/#main_features`}>{t('nav.howItWorks')}</Link>
       </li>
       <li>
-        <a href={`#pricing_tiers`}>{t('nav.pricingMenu')}</a>
-      </li>
-      <li>
-        <Link href={`/page-contact`}>{t('nav.contact')}</Link>
+        <Link href={isHomePage ? `#pricing_tiers` : `/#pricing_tiers`}>{t('nav.pricingMenu')}</Link>
       </li>
       {/* <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">

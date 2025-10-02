@@ -181,9 +181,9 @@ export const footerLinks4 = [
 ];
 
 export const socialLinks = [
-  { href: "#", iconClass: "unicon-logo-linkedin" },
-  { href: "#", iconClass: "unicon-logo-facebook" },
-  { href: "#", iconClass: "unicon-logo-x-filled" },
-  { href: "#", iconClass: "unicon-logo-instagram" },
-  { href: "#", iconClass: "unicon-logo-youtube" },
+  { href: "https://www.linkedin.com/company/lookah-ai/", iconClass: "unicon-logo-linkedin" },
+  // { href: "#", iconClass: "unicon-logo-facebook" },
+  // { href: "#", iconClass: "unicon-logo-x-filled" },
+  { href: "https://www.instagram.com/lookah.ai/", iconClass: "unicon-logo-instagram" },
+  // { href: "#", iconClass: "unicon-logo-youtube" },
 ];

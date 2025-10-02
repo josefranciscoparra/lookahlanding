@@ -6,10 +6,13 @@ import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import LanguageToggle from "@/components/common/LanguageToggle";
 import { useLanguage } from "@/context/LanguageContext";
+import { usePathname } from "next/navigation";
 // uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky uc-sticky-below uc-sticky-fixed
 // --uc-nav-height: 80px; position: fixed !important; width: 1205px !important; margin-top: 0px !important; top: 0px;
 export default function Header2() {
   const { t } = useLanguage();
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
 
@@ -76,7 +79,7 @@ export default function Header2() {
                 <div className="hstack gap-2">
                   <Link
                     className="btn btn-sm text-white text-none d-none lg:d-inline-flex"
-                    href={`#pricing_tiers`}
+                    href={isHomePage ? `#pricing_tiers` : `/#pricing_tiers`}
                     style={{backgroundColor: '#F57197'}}
                   >
                     {t('nav.pricing')}
