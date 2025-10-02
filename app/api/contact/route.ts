@@ -180,7 +180,7 @@ export async function POST(request: NextRequest) {
         {
           success: false,
           message: 'Error de validación',
-          errors: error.errors,
+          errors: error.issues,
         },
         { status: 400 }
       )
