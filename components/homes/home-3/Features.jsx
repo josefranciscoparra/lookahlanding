@@ -39,7 +39,8 @@ export default function Features() {
         {features.map((feature, i) => (
           <React.Fragment key={i}>
             <div
-              className={`w-100 ${(i === 0 || i === 2) ? 'bg-pink-50 dark:bg-gray-700' : 'bg-transparent'}`}
+              className="w-100"
+              style={(i === 0 || i === 2) ? {backgroundColor: 'rgba(245, 113, 151, 0.05)'} : {}}
             >
               <div className="section-outer panel py-4 sm:py-5">
                 <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
