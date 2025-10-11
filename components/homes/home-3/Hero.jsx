@@ -3,9 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { openContactModal } from "@/utlis/toggleContactModal";
 import { useLanguage } from "@/context/LanguageContext";
+import { useState } from "react";
 
 export default function Hero() {
   const { t } = useLanguage();
+  const [isPlaying, setIsPlaying] = useState(false);
 
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
@@ -189,15 +191,67 @@ export default function Hero() {
               className="hero-scene panel max-w-950px mx-auto"
               data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
             >
-              <div className="panel text-center overflow-hidden rounded-3 border border-5" style={{borderColor: '#F57197'}}>
-                <Image
-                  alt="Lookah - Cambia tu look con IA"
-                  src="/assets/images/template/principalimagen.png"
-                  width="1440"
-                  height="1024"
+              <div className="panel text-center overflow-hidden rounded-3 border border-5" style={{borderColor: '#F57197', position: 'relative', paddingBottom: '56.25%', height: 0}}>
+                <iframe
+                  style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+                  src={`https://player.vimeo.com/video/1126422871?badge=0&autopause=0&player_id=0&app_id=58479&controls=${isPlaying ? 1 : 0}&autoplay=${isPlaying ? 1 : 0}`}
+                  title="Lookah - Cambia tu look con IA"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  allowFullScreen
                 />
+                {!isPlaying && (
+                  <div
+                    onClick={() => setIsPlaying(true)}
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                      transition: 'background-color 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'}
+                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.3)'}
+                  >
+                    <div style={{
+                      width: '80px',
+                      height: '80px',
+                      backgroundColor: 'rgba(245, 113, 151, 0.9)',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      transition: 'transform 0.3s ease, background-color 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'scale(1.1)';
+                      e.currentTarget.style.backgroundColor = 'rgba(245, 113, 151, 1)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.backgroundColor = 'rgba(245, 113, 151, 0.9)';
+                    }}
+                    >
+                      <svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                        style={{ marginLeft: '4px' }}
+                      >
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                )}
               </div>
-              <div className="position-absolute bottom-0 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8">
+              <div className="position-absolute bottom-0 ltr:end-0 rtl:start-0 ltr:me-n8 rtl:ms-n8 mb-n8" style={{zIndex: -1}}>
                 <Image
                   className="w-200px d-block dark:d-none"
                   alt="sitting"
